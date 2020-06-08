@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Stopwatch</title>
+  <meta name="description" content="Stopwatch">
+  <meta name="author" content="David Riches">
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="/js/scripts.js"></script>
+</head>
+
+<body>
+    <div class="timer">
+        <div id="stopwatch">00:00:00:00</div>
+        <div class="controls">
+            <div id="start" class="btn" onclick="start()">Start</div>
+            <div id="pause" class="btn" onclick="pause()">Pause</div>
+            <div id="reset" class="btn" onclick="reset()">Reset</div>
+            <div id="lap" class="btn" onclick="lap()">Lap</div>
+        </div>
+        Laps
+        <ul id="laps"></ul>
+    </div>
+</body>
+</html>
